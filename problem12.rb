@@ -1,6 +1,6 @@
 require 'prime'
-i = 1
 count = 0
+i = 1
 while count <= 500 and i = i + 1
    primes, powers = ((i * (i + 1))/2).prime_division.transpose
    powers.map! {|x| x + 1}
